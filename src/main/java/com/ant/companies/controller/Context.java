@@ -3,6 +3,11 @@ package com.ant.companies.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
+
 import com.ant.companies.model.dao.DaoGeneric;
 import com.ant.companies.model.entities.Azienda;
 import com.ant.companies.model.entities.Dipendente;

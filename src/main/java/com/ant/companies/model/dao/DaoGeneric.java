@@ -24,7 +24,6 @@ public class DaoGeneric {
 	public DaoGeneric() {
 	}
 
-	
 	public String setPercorso(String query) {
 		this.READ = query;
 		return READ;

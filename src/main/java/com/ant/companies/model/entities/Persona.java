@@ -1,7 +1,8 @@
 package com.ant.companies.model.entities;
 
+import javax.xml.crypto.Data;
+
 import com.ant.utility.model.entities.Entity;
-import com.mysql.fabric.xmlrpc.base.Data;
 
 public class Persona extends Entity {
 
